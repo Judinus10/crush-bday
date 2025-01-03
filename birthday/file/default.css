@@ -84,3 +84,46 @@ a {
   font-family: monospace;
 
 }
+
+@media only screen and (max-width: 768px) {
+  body {
+      font-size: 12px;
+      background-size: cover;
+      overflow: hidden;
+  }
+
+  #wrap, #canvas {
+      width: 100%;
+      height: auto;
+  }
+
+  #text {
+      width: 80%;
+      height: auto;
+      left: 10%;
+      top: 50px;
+  }
+
+  #code {
+      font-size: 14px;
+      margin-top: 30px;
+      line-height: 20px;
+  }
+
+  #clock-box {
+      left: 20px;
+      top: auto;
+      bottom: 20px;
+      font-size: 20px;
+  }
+
+  #clock .digit {
+      font-size: 48px;
+  }
+
+  #message-box {
+      font-size: 18px;
+      margin-top: 400px;
+      text-align: center;
+  }
+}
